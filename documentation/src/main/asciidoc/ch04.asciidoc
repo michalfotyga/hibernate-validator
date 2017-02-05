@@ -86,7 +86,7 @@ context:
 
 * the attribute values of the constraint mapped to the attribute names
 * the currently validated value (property, bean, method parameter etc.) under the name _validatedValue_
-* a bean mapped to the name formatter exposing the var-arg method
+* a bean mapped to the name _formatter_ exposing the var-arg method
 `format(String format, Object... args)` which behaves like
 `java.util.Formatter.format(String format, Object... args)`.
 
